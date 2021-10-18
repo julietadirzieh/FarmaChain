@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Etiquetas Meta requeridas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmaChain</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/031f70e06c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-light">
+        <!-- Menú navbar -->
+            <div class="container">
+                <a href="#index">
+                    <img src="img/logo.png" alt="Logo" class="imgLogo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="nav-link links" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link links" href="index.html#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link links" href="index.html#footer">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <button class="btn btn-secundario btn-shadow registro" type="button"><a href="index.html" class="btnIndexSection">REGISTRARSE</a></button> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección 1 de la landing page -->
+        <section >
+            <div class="firstSection d-flex">
+                <div class="firstSection_text--1">
+                    <h1>Plataforma de prescripción médicas</h1>
+                    <h4>Conectamos la <span>industria farmacéutica</span>, por medio de las recetas digitales, garantizando calidad y seguridad de la información.</h4>
+                    <button class="btn btn-secundario btn-shadow mt-3" type="button"><a href="index.html"
+                            class="btnIndexSection">SABER MÁS</a></button>
+                </div>
+                <img src="img/PlataformaA.png" class="imgPort" alt="">
+            </div>
+            <div class="container-fluid text-center" id="servicios">
+                <div class="firstSection_text">
+                    <h5 class="firstSection_text--2">Ofrecemos <span>servicios y beneficios</span> diferentes, para cada uno de los actores de la industria farmacéutica.</h5>
+                </div>
+                <div class="row m-0">
+                    <div class="firstSection_containerCard">
+                        <div class="cardFirstSec bgAnaranjado col-md-2 col-lg-3 ">
+                            <div class="imgContenedor rounded-circle">
+                                <img class="card-img-top img-card" src="./img/iconosMedicos.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Médicos</h5>
+                                <p class="card-text textCard">Ayudamos a los médicos en la generación y administración de sus recetas médicas digitales, por medio de una apliación web.</p>
+                            </div>
+                        </div>
+                        <div class="cardFirstSec bgUvaPrimario col-md-2 col-lg-3">
+                            <div class="imgContenedor rounded-circle">
+                                <img class="card-img-top img-card" src="./img/iconosPacientes.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Pacientes</h5>
+                                <p class="card-text textCard">Flexibilidad en la compra de los medicamentos recetados, al mejor precio y entrega a domicilio. Poder consultar su receta médica digital en cualquier momento.</p>
+                            </div>
+                        </div>
+                        <div class="cardFirstSec bgRosa col-md-2 col-lg-3">
+                            <div class="imgContenedor rounded-circle">
+                                <img class="card-img-top img-card" src="./img/iconosFarmacias.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Farmacias</h5>
+                                <p class="card-text textCard">Conectamos la oferta de los medicamentos con la demanda generada por la recetas médicas digitales.</p>
+                            </div>
+                        </div>
+                        <div class="cardFirstSec bgLilaSecundario col-md-2 col-lg-3">
+                            <div class="imgContenedor rounded-circle">
+                                <img class="card-img-top img-card" src="./img/iconosLabora.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Laboratorios</h5>
+                                <p class="card-text textCard">Apoyamos la industria, con diferentes herramientas de auditoría del mercado, para medir el desempeño de sus productos y evaluar su estrategia de promoción médica.</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2 de la landing page -->
+        <hr>
+        <div class="secondSection">
+            <div class="secondSection_text">
+                <h2>Registro para Médicos de forma gratuita.</h2>
+                <h6>Empieza a recetar hoy mismo.</h6>
+                <h6>Administrá tus recetas y llevá tus pacientes al mundo digital.</h6>
+                <button class="btn btn-secundario mt-5" type="button"><a href="index.html" class="btnIndexSection">REGISTRARSE</a></button>
+            </div>
+
+           <img src="img/PlataformaB.png" class="imgPort2">
+        
+        </div>
+
+        <!-- Sección 3 de la landing page -->
+        <section class="container-fluid thirdSection">
+            <article class="text-center">
+                <div class="thirdSection_text">
+                    <h2>Únete a la transformación.</h2>
+                    <h5>Se parte de la comunidad de médicos que usan FarmaChain y confían en su tecnología para elaborar prescripciones médicas.</h5>
+                    <button class="btn btn-secundario mt-5 btn-shadow" type="button"><a href="index.html" class="btnIndexSection">UNIRME AHORA</a></button>
+                </div>
+                <img src="img/PlataformaC.png" alt="img celular" class="img-fluid">
+            </article>
+            <div class="row text-center m-0">
+                <div class="thirdSection_containerCard">
+                    <div class="cardThirdSec col-lg-6">
+                        <div class="card-body card-body--grid">
+                            <img src="./img/dr.png" class="img-fluid rounded-start icon" alt="...">
+                            <h5 class="card-title tituloCard">Dr. Fraco Gallardo</h5>
+                            <p class="card-text textoCard">"FarmaChain me ayudó a mejorar la comunicación entre mis pacientes y lograr llevar u mejor registro".</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="cardThirdSec shadow col-lg-6">
+                        <div class="card-body card-body--grid">
+                            <img src="./img/dra.png" class="img-fluid rounded-start icon" alt="...">
+                            <h5 class="card-title tituloCard">Dra. Raquel Cruz</h5>
+                            <p class="card-text textoCard">"Con el equipo de FarmaChain logré tener mejor organizadas las recetas de mis pacientes. El cambio a digital fue bastante bueno".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4 de la landing page -->
+        <section class="container-fluid fourthSection">
+            <article class="text-center">
+                <div class="fourthSection_text">
+                    <h2>Nuestra plataforma</h2>
+                    <h5>Desarrollada de forma segura con un gran equipo compometido con el desarrollo de la industria farmacéutica.</h5>
+                    <button class="btn btn-secundario mt-5" type="button"><a href="index.html"class="btnIndexSection">REGISTRARSE</a></button>
+                </div>
+            </article>
+            <div class="row m-0">
+                <div class="card col-md-4">
+                    <div class="card-body card-body--grid">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-bar-to-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7317E5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <line x1="14" y1="12" x2="4" y2="12" />
+                          <line x1="14" y1="12" x2="10" y2="16" />
+                          <line x1="14" y1="12" x2="10" y2="8" />
+                          <line x1="20" y1="4" x2="20" y2="20" />
+                        </svg>
+                        <h5 class="card-title tituloCard">Registro</h5>
+                        <p class="card-text textoCard">Registrate de forma segura y sencilla con un correo electrónico.
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <div class="card-body card-body--grid">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7317E5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                          <polyline points="7 11 12 16 17 11" />
+                          <line x1="12" y1="4" x2="12" y2="16" />
+                        </svg>
+                        <h5 class="card-title tituloCard">Sin descargas.</h5>
+                        <p class="card-text textoCard">Puedes usar FarmaChain desde cualquier dispositivo como Tablet, Pc y Smartphone.</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <div class="card-body card-body--grid">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7317E5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <circle cx="9" cy="7" r="4" />
+                          <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                          <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                        </svg>
+                        <h5 class="card-title tituloCard">Seguridad</h5>
+                        <p class="card-text textoCard">El registro de tus datos y registro de prescripciones están resguardados de forma segura.</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <div class="card-body card-body--grid">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7317E5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <circle cx="12" cy="12" r="9" />
+                          <polyline points="12 7 12 12 15 15" />
+                        </svg>
+                        <h5 class="card-title tituloCard">24/7</h5>
+                        <p class="card-text textoCard">Accedéma nuestra plataforma desde cualquier parte de Latinoamérica a cualquier hora, los 365 días del año.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="img/PlataformaCDesktop.png" class="imgPort4" alt="">
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main__footer" id="footer">
+        <div class="footer__container">
+            <div class="footer__left">
+                <p class="footer__contact-title">FarmaChain ®️</p>
+                <p>Desea conocer más sobre nuestros servicios.</p>
+                <p>Dejanos tus datos y te contactaremos.</p>
+                <p><a class="socialLinks" href="mailto:contacto@farmachain.com">contacto@farmachain.com</a></p>
+                <p>Tel: <a class="socialLinks" href="mailto:contacto@farmachain.com">52 298 72 06</a></p>
+                <p>Colombia</p>
+            </div>
+            <div>
+            <ul class="socialLinks__list">
+                <li class="socialLinks__listItem"><a class="socialLinks__link" href="https://www.facebook.com/"><i
+                            class="fab fa-facebook"></i></a>
+                </li>
+                <li class="socialLinks__listItem"><a class="socialLinks__link" href="https://www.instagram.com/"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                <li class="socialLinks__listItem"><a class="socialLinks__link" href="https://www.linkedin.com"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li class="socialLinks__listItem"><a class="socialLinks__link" href="https://www.twitter.com"><i
+                            class="fab fa-twitter"></i></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popper & Bootsrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
