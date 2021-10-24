@@ -29,18 +29,18 @@ h1 {
     animation-duration: 2s;
     color: var(--lilaSecundario) !important;
     text-align: left;
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 h2 {
     color: var(--lilaSecundario);
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 h3 {
     font-weight: bold;
     color: #65696d;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 h4{
@@ -324,7 +324,7 @@ a.btnIndexSection {
 }
 
 .imgPort3{
-    max-width: 70%;
+    max-width: 50%;
 }
 
 /*CUARTA SECCIÓN*/
@@ -383,7 +383,7 @@ a.footer__text {
 .footer__contact-title {
     text-align: left;
     align-self: center;
-    color: var(--uvaSecundario);
+    color: var(--lilaSecundario);
     font-weight: bold;
 }
 
@@ -415,7 +415,7 @@ a.socialLinks{
 
 .socialLinks__list .socialLinks__link {
     font-size: 2em;
-    color: var(--uvaSecundario);
+    color: var(--lilaSecundario);
     padding: 5px 10px;
     text-decoration: none;
 }
@@ -427,7 +427,7 @@ a.socialLinks{
 
 /*RESPONSIVE*/
 
-@media all and (min-width: 1300px){
+@media all and (min-width: 1301px){
     nav {
         font-size: 1.5rem;
     }
@@ -444,18 +444,16 @@ a.socialLinks{
         font-size: 1.3rem;
     }
 
-    .imgPort {
-        max-width: 45%;
-        margin-right: 50px;
-        padding: 100px 0 100px 0;
-    }
-
     .firstSection_text--1{
-        padding: 100px 0 100px 100px;
+        padding: 100px 0 100px 0;
     }
 
     .firstSection_containerCard{
         padding: 0px 100px;
+    }
+
+    .secondSection_text {
+        margin: 0;
     }
 
     .imgPort2 {
@@ -474,7 +472,7 @@ a.socialLinks{
 
 @media all and (min-width: 993px) and (max-width: 1300px){ 
     .firstSection {
-        padding: 0px 150px 0px 150px;
+        padding: 0px 100px 0px 100px;
     }
     
     .firstSection_text--1{
@@ -494,7 +492,7 @@ a.socialLinks{
     }
 
     .secondSection{
-        padding: 0px 150px 0px 150px;
+        padding: 0px 50px 0px 50px;
     }
 
     .secondSection_text {
@@ -515,9 +513,9 @@ a.socialLinks{
 @media all and (max-width: 992px) and (min-width: 769px) {
     .firstSection{
         text-align: center;
-        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
+        padding: 0px 50px 20px 50px;
     }
     .registro{
         order: 2;
@@ -532,12 +530,11 @@ a.socialLinks{
     }
 
     .firstSection_text--1{
-        padding: 50px;
         text-align: center;
     }
 
     .firstSection_text{
-        padding: 50px 200px 
+        padding: 50px 50px 
     }
 
     .cardFirstSec {
@@ -553,9 +550,10 @@ a.socialLinks{
 
     .secondSection{
         text-align: center;
-        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        padding: 0px 50px 20px 50px;
     }
     
     .secondSection_text {
@@ -581,10 +579,18 @@ a.socialLinks{
     }
 
     .imgPort{
-        padding: 20px 0;
+        padding: 50px 0;
+        margin: 0;
+        max-width: 80%
     }
+
     .imgPort2{
+        max-width: 80%;
         padding: 20px 0;
+        margin: 0;
+    }
+    .imgPort3{
+        max-width: 80%;
     }
 }
 
@@ -612,17 +618,13 @@ a.socialLinks{
 
    .firstSection{
         text-align: center;
-        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
+        padding: 0px 50px 20px 50px;
     }
 
-    .firstSection_text--1{
-        padding: 50px 0px 20px 0px;
-        text-align: center;
-    }
     .firstSection_text{
-        padding: 0px;
+        padding: 0 20px;
     }
     .firstSection_containerCard{
         flex-direction: column;
@@ -644,15 +646,19 @@ a.socialLinks{
         padding-bottom: 20px;
         display: flex;
         flex-direction: column;
+        padding: 0px 50px 0px 50px;
     }
 
     .secondSection_text {
-        padding: 50px 0px 20px 0px;
         text-align: center;
         margin: 0px;
     }
     .imgPort2{
         padding: 20px 0;
+        max-width: 100%;
+    }
+
+    .imgPort3{
         max-width: 100%;
     }
     .thirdSection_text {
@@ -691,7 +697,7 @@ a.socialLinks{
 
 @media all and (max-width: 576px){
     .imgLogo {
-        max-width: 180px;
+        max-width: 200px;
     }
     a.title {
         font-size: 1.6em;
@@ -699,14 +705,13 @@ a.socialLinks{
     h1{
         text-align: center;
         padding-bottom: 10px;
+        font-size: 2rem;
+
     }
     .navbar-toggler{
         margin-right: 25px;
     }
 
-    .frase{
-        font-size: 12px;
-    }
     .registro{
         order: 2;
     }
@@ -718,15 +723,12 @@ a.socialLinks{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0px 10px 0px 10px;
     }
-    .firstSection_text--1{
-        padding: 50px 30px 20px 30px;
-        margin: 0px 0px 20px 0px;
-    }
+   
     .imgPort {
         max-width: 350px;
-        padding: 15px 10px 4px 0px;
-        margin-left: 5px;
+        margin: 30px 0 0 0;
     }
     .firstSection_text{
         padding: 0 20px 0 20px;
@@ -747,16 +749,17 @@ a.socialLinks{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 0px 20px 0px 20px;
     }
+
     .secondSection_text {
-        padding: 50px 30px 20px 30px;
         margin: 0px 0px 20px 0px;
     }
+
     .imgPort2 {
         max-width: 350px;
-        padding: 15px 10px 4px 0px;
-        margin-left: 5px;
-    }
+        margin: 0;
+    } 
     .thirdSection_text{
         margin-top: 20px;
         padding: 50px 20px;
@@ -770,8 +773,8 @@ a.socialLinks{
     .cardThirdSec {
         margin-bottom: 20px;
     }
-    .imgPort4{
-        padding-left: 2rem;
+    .imgPort3{
+        max-width: 100%;
     }
 
     .fourthSection_text{
