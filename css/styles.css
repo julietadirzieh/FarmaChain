@@ -162,8 +162,8 @@ hr{
 
 .imgPort {
     float: right;
-    max-width: 45%;
-    margin: 0px 50px 0px 15px;
+    max-width: 60%;
+    margin: 0px 0px 0px 15px;
 }
 
 .firstSection_text{
@@ -286,19 +286,20 @@ a.btnIndexSection {
 /*SEGUNDA SECCIÓN*/
 .secondSection{
     display: flex;
+    padding: 0px 180px 0px 180px;
+    width: 100%;
 }
 
 .secondSection_text {
-    padding: 100px 75px 0px 50px;
-    margin: 30px;
     float: left;
+    padding: 80px 0px 0px 0px;
+    margin: 100px 0px 0 80px;
 }
 
 .imgPort2 {
     float: right;
-    max-width: 100%;
-    width: 500px;
-    margin-left: auto;
+    max-width: 50%;
+    margin: 0px 0px 0px 15px;
 }
 
 /*TERCERA SECCIÓN*/
@@ -322,6 +323,10 @@ a.btnIndexSection {
     border-right: 1px solid var(--lilaSecundario);
 }
 
+.imgPort3{
+    max-width: 70%;
+}
+
 /*CUARTA SECCIÓN*/
 .fourthSection {
     width: 100%;
@@ -336,7 +341,6 @@ a.btnIndexSection {
 .imgPort4 {
     align-content: center;
     max-width: 100%;
-    padding-left: 125px;
     background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 41.99%, #FFFFFF 100%);
 }
 
@@ -488,10 +492,14 @@ a.socialLinks{
     .firstSection_text{
         padding: 0 10rem 0 10rem;
     }
-    
+
+    .secondSection{
+        padding: 0px 150px 0px 150px;
+    }
+
     .secondSection_text {
-        padding: 150px 65px 0px 40px;
-        margin: 20px;
+        padding: 80px 0px 0px 0px;
+        margin: 75px 0px 0 80px;
     }
     
     .thirdSection_text {
@@ -543,8 +551,16 @@ a.socialLinks{
         justify-content: space-around;
     }
 
+    .secondSection{
+        text-align: center;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
     .secondSection_text {
-        padding: 130px 20px 0px 50px;
+        padding: 50px;
+        text-align: center;
         margin: 0px;
     }
     
@@ -565,6 +581,9 @@ a.socialLinks{
     }
 
     .imgPort{
+        padding: 20px 0;
+    }
+    .imgPort2{
         padding: 20px 0;
     }
 }
@@ -622,15 +641,20 @@ a.socialLinks{
     }
     .secondSection{
         text-align: center;
+        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
     }
 
     .secondSection_text {
-        padding: 30px 50px 0px 50px;
+        padding: 50px 0px 20px 0px;
+        text-align: center;
         margin: 0px;
     }
-    
+    .imgPort2{
+        padding: 20px 0;
+        max-width: 100%;
+    }
     .thirdSection_text {
         padding: 25px 75px;
     }
@@ -721,12 +745,18 @@ a.socialLinks{
     .secondSection{
         text-align: center;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
     }
     .secondSection_text {
-        padding: 20px 0 0 0;
+        padding: 50px 30px 20px 30px;
+        margin: 0px 0px 20px 0px;
     }
-
+    .imgPort2 {
+        max-width: 350px;
+        padding: 15px 10px 4px 0px;
+        margin-left: 5px;
+    }
     .thirdSection_text{
         margin-top: 20px;
         padding: 50px 20px;
